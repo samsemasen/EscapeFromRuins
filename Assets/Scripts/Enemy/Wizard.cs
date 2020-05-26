@@ -64,7 +64,7 @@ public class Wizard : MonoBehaviour
 	IEnumerator waiter()
 	{
 
-		//Wait for 4 seconds
+		//Wait for 0.7 seconds
 		yield return new WaitForSecondsRealtime(0.7f);
 
 		Instantiate(firePrefab, firePoint.position, firePoint.rotation);

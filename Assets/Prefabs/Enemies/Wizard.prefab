@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 7855422207140879634}
   - component: {fileID: 4137775343359005811}
   - component: {fileID: 3511604999023461443}
+  - component: {fileID: 6624537845447102282}
   m_Layer: 10
   m_Name: Wizard
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +61,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5124036479582891065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.959, y: 8.313, z: 0}
+  m_LocalPosition: {x: 32.9046, y: 8.2735, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7270992293348012749}
@@ -181,7 +182,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.74, y: 2.2}
+  m_Size: {x: 0.68, y: 2.2}
   m_EdgeRadius: 0
 --- !u!114 &4137775343359005811
 MonoBehaviour:
@@ -210,8 +211,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFlipped: 0
-  shootRate: 10
   firePoint: {fileID: 7270992293348012749}
   firePrefab: {fileID: 971801269956137115, guid: c69770da797deaa4bb4aae4698f409f2,
     type: 3}
   WizardAnim: {fileID: 5124036479582891066}
+--- !u!61 &6624537845447102282
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124036479582891065}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.08, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.05, y: 3.3}
+    newSize: {x: 4.05, y: 3.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.46, y: 2.22}
+  m_EdgeRadius: 0

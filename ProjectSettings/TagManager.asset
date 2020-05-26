@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - FirePoints
+  - KillPlayer
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,8 +20,8 @@ TagManager:
   - Room
   - Ground
   - Enemy
-  - 
-  - 
+  - Fire
+  - Player
   - 
   - 
   - 
