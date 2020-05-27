@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
@@ -12,8 +13,12 @@ public class Door : MonoBehaviour
         if (collision.CompareTag("Player") && key == true) {
 
             DoorAnim.SetTrigger("openDoor");
+           
             // WIN!! -- > next level and smth extra??
             Debug.Log("player win !!!");
+            FindObjectOfType<GameManager>().CompleteLevel();
+
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
    
