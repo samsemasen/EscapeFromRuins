@@ -28,7 +28,7 @@ public class Wizard : MonoBehaviour
 		FaceThePlayer();
 
 		if (Time.time > nextShoot) {
-			int randShootRate = Random.Range(0, 10);
+			int randShootRate = Random.Range(5, 15);
 			nextShoot = Time.time + randShootRate;
 			Shoot();
 			

@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a19b6fc0aece8a24bbaee55f8fe96cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
   GroundCheckDistance: 2
   WallCheckDistance: 0.1
   detection: {fileID: 3145522691064626302}

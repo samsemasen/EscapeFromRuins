@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
-        // JUMP + DOUBLE JUMP - start
+        // JUMP + DOUBLE JUMP 
 
         if(isGrounded == true){
             extraJumps = extraJumpsValue;
@@ -85,44 +85,16 @@ public class PlayerController : MonoBehaviour
         }
       
 
-        //NEW JUMP - end
-
-        /* old one
-
-        if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow)) {
-            isJumping = true;
-            anim.SetBool("isJumping", true);
-            jumpTimeCounter = jumpTime;
-            rb.velocity = Vector2.up * jumpForce;
-        }
-
-        if(Input.GetKey(KeyCode.UpArrow) && isJumping == true) {
-            
-            if(jumpTimeCounter > 0) {
-                rb.velocity = Vector2.up * jumpForce;
-                jumpTimeCounter -= Time.deltaTime;
-            }
-            else{
-                isJumping = false;
-            }
-        }
-
-        if (Input.GetKeyUp(KeyCode.UpArrow)) {
-            isJumping = false;           
-        }
-
-        if(isGrounded == false && isJumping == false) {
-            anim.SetBool("isJumping", false);
-        }
-        */
-
-
         // CROUCH
         if (Input.GetKeyDown(KeyCode.DownArrow ) && isGrounded == true) {
             anim.SetBool("isCrouching", true);
         }
         if (Input.GetKeyUp(KeyCode.DownArrow ) || moveInput != 0 ) {
             anim.SetBool("isCrouching", false);
+        }
+
+        if(rb.position.y < -31f) {
+            FindObjectOfType<GameManager>().EndGame();
         }
 
 

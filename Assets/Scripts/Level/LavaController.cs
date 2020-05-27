@@ -21,13 +21,6 @@ public class LavaController : MonoBehaviour
         Instantiate(FireBallPrefab, BeginPoints[2].position, Quaternion.identity);
         Instantiate(FireBallPrefab, BeginPoints[3].position, Quaternion.identity);
 
-        /*
-        for(int i = 0; i <= BeginPoints.Length-1; i++) {
-            //transform.position = BeginPoints[i].position;
-            Instantiate(FireBallPrefab, BeginPoints[i].position, Quaternion.identity);
-
-        }
-        */
 
     }
 
