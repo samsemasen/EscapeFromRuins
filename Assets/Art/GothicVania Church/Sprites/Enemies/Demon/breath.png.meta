@@ -1,7 +1,109 @@
 fileFormatVersion: 2
 guid: dd63d74975460f84c92c934091cb9fd6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3357456237637211654
+    second: breath_0
+  - first:
+      213: -9207330750096012830
+    second: breath_1
+  - first:
+      213: -4893268487788707776
+    second: breath_2
+  - first:
+      213: -4391339548740726016
+    second: breath_3
+  - first:
+      213: -5170192254265705988
+    second: breath_4
+  - first:
+      213: -3824202449085382717
+    second: breath_5
+  - first:
+      213: 4606163588800520754
+    second: breath_6
+  - first:
+      213: -4116280471755238661
+    second: breath_7
+  - first:
+      213: 3066896239159136306
+    second: breath_8
+  - first:
+      213: -7372521762662162072
+    second: breath_9
+  - first:
+      213: 4967994617639426535
+    second: breath_10
+  - first:
+      213: 3882102253948123323
+    second: breath_11
+  - first:
+      213: 5511867917628317418
+    second: breath_12
+  - first:
+      213: 4307889398137074526
+    second: breath_13
+  - first:
+      213: -2950049417783767720
+    second: breath_14
+  - first:
+      213: 8295103670588014062
+    second: breath_15
+  - first:
+      213: 1101706755433543361
+    second: breath_16
+  - first:
+      213: -8014940162771591525
+    second: breath_17
+  - first:
+      213: 588851516132587588
+    second: breath_18
+  - first:
+      213: -2939110716032764790
+    second: breath_19
+  - first:
+      213: -1298404343097164526
+    second: breath_20
+  - first:
+      213: -3126583839982906161
+    second: breath_21
+  - first:
+      213: 8204565919975823517
+    second: breath_0
+  - first:
+      213: -4994197235434206783
+    second: breath_1
+  - first:
+      213: -6645169522254320466
+    second: breath_2
+  - first:
+      213: -7103621795628714196
+    second: breath_4
+  - first:
+      213: 295397770396658813
+    second: breath_5
+  - first:
+      213: 4055024255546049322
+    second: breath_3
+  - first:
+      213: -3691702129733896525
+    second: breath_8
+  - first:
+      213: 5308235063400146266
+    second: breath_9
+  - first:
+      213: -3017041215723612721
+    second: breath_11
+  - first:
+      213: 4098881348530867444
+    second: breath_14
+  - first:
+      213: -6015560433758569556
+    second: breath_15
+  - first:
+      213: -6000561851364121343
+    second: breath_18
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +142,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +172,138 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: breath_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d985f6c0c397cd170800000000000000
+      internalID: 8204565919975823517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breath_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 155
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9c4b3231c01bab0800000000000000
+      internalID: -4994197235434206783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breath_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 145
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac67c1f68d97c3a0800000000000000
+      internalID: -6645169522254320466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breath_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 127
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27f3dc0d9dda6d90800000000000000
+      internalID: -7103621795628714196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breath_3
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 141
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a234a637317564830800000000000000
+      internalID: 4055024255546049322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
